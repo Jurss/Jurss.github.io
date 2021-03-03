@@ -14,20 +14,32 @@ body {
     display: flex;
     align-items: center;
     color: #2a98f7;
+    background: #71bb3d;
 }
 
 #logo {
+    margin-left: 15px;
     width: 75px;
     height: 75px;
 }
 
 #navbar {
     display: flex;
-    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #navbar a {
     color: #2a98f7;
     text-decoration: none;
-    margin-left: 15%;
+    padding-right: 15%;
+}
+
+#carouselSlides {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: ;
 }
