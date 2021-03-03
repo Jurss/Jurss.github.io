@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Adega_serif_bold";
+    src: local(Adega_serif), url(fonts/adega_serif/ADega\ Serif\ Bold.otf);
+}
+
+body {
+    margin: 0;
+}
+
+#head {
+    font-family: Adega_serif_bold;
+    font-size: 3em;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    color: #2a98f7;
+}
+
+#logo {
+    width: 75px;
+    height: 75px;
+}
+
+#navbar {
+    display: flex;
+    list-style: none;
+}
+
+#navbar a {
+    color: #2a98f7;
+    text-decoration: none;
+    margin-left: 15%;
+}
