@@ -40,6 +40,10 @@ body {
     padding-right: 15%;
 }
 
+#navbar a:hover {
+    text-decoration: underline;
+}
+
 #carouselSlides {
     margin-top: 5%;
     margin-left: auto;
@@ -62,11 +66,12 @@ body {
 }
 
 .sup_div {
-    height: 80px;
+    height: auto;
     width: 100%;
     background: #3a6b35;
     color: #e3b448;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -80,6 +85,10 @@ body {
     text-decoration: none;
     color: black;
     text-align: center;
+}
+
+#contact_list a:hover {
+    text-decoration: underline;
 }
 
 h1,
