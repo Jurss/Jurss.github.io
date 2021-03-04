@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: "Louis_george_light";
+    font-family: "Louis_george";
     src: local(Louis_george_café), url(fonts/Louis_george/Louis_George_Cafe.ttf);
 }
 
@@ -15,7 +15,6 @@ body {
 
 #head {
     font-family: Adega_serif_bold;
-    width: 100vw;
     display: flex;
     align-items: center;
     background: #3a6b35;
@@ -37,7 +36,7 @@ body {
 #navbar a {
     color: #e3b448;
     text-decoration: none;
-    padding-right: 15%;
+    padding-right: 5%;
 }
 
 #navbar a:hover {
@@ -52,17 +51,18 @@ body {
 }
 
 .article_style {
-    font-family: Louis_george_light;
+    font-family: Louis_george;
     margin-top: 5%;
-    border: 3px solid #3a6b35;
-    border-radius: 12px;
+    margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 25px;
     width: 85%;
+    border: 3px solid #3a6b35;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
     text-align: start;
-    padding-bottom: 25px;
 }
 
 .sup_div {
@@ -91,6 +91,12 @@ body {
     text-decoration: underline;
 }
 
+@media screen and (min-width: 768px) {
+    #carouselSlides {
+        width: 700px;
+    }
+}
+
 h1,
 h2 {
     font-weight: 700;
@@ -98,5 +104,5 @@ h2 {
 
 p {
     padding-left: 3%;
-    font-family: Louis_george_light;
+    font-family: Louis_george;
 }
